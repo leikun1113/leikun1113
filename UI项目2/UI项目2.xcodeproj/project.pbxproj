@@ -14,6 +14,7 @@
 		D6E245191D06BF9300A92151 /* UI__2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6E245171D06BF9300A92151 /* UI__2.xcdatamodeld */; };
 		D6E2451B1D06BF9300A92151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E2451A1D06BF9300A92151 /* Assets.xcassets */; };
 		D6E2451E1D06BF9300A92151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E2451C1D06BF9300A92151 /* LaunchScreen.storyboard */; };
+		D6E245271D06F94800A92151 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E245261D06F94800A92151 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		D6E2451A1D06BF9300A92151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6E2451D1D06BF9300A92151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6E2451F1D06BF9300A92151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E245251D06F94800A92151 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		D6E245261D06F94800A92151 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				D6E2450F1D06BF9300A92151 /* AppDelegate.m */,
 				D6E245111D06BF9300A92151 /* ViewController.h */,
 				D6E245121D06BF9300A92151 /* ViewController.m */,
+				D6E245251D06F94800A92151 /* AViewController.h */,
+				D6E245261D06F94800A92151 /* AViewController.m */,
 				D6E245141D06BF9300A92151 /* Main.storyboard */,
 				D6E2451A1D06BF9300A92151 /* Assets.xcassets */,
 				D6E2451C1D06BF9300A92151 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E245191D06BF9300A92151 /* UI__2.xcdatamodeld in Sources */,
+				D6E245271D06F94800A92151 /* AViewController.m in Sources */,
 				D6E245131D06BF9300A92151 /* ViewController.m in Sources */,
 				D6E245101D06BF9300A92151 /* AppDelegate.m in Sources */,
 				D6E2450D1D06BF9300A92151 /* main.m in Sources */,
@@ -307,6 +313,7 @@
 				D6E245241D06BF9300A92151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
